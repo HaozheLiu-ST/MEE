@@ -118,6 +118,18 @@ TBD
 
 * The entropy term and DIsoMap can be trained by L2 distance, with rapid convergence but unstable training. To this end, when generalize IAC to large-scale dataset, please replace L2 by cosine similarity.
 
+## Bib
+If you think this project is useful for your research, please cite as 
+```
+@article{liu2022combating,
+  title={Combating mode collapse in gans via manifold entropy estimation},
+  author={Liu, Haozhe and Li, Bing and Wu, Haoqian and Liang, Hanbang and Huang, Yawen and Li, Yuexiang and Ghanem, Bernard and Zheng, Yefeng},
+  journal={arXiv preprint arXiv:2208.12055},
+  year={2022}
+}
+```
+
+
 ## Related Github Repo
 
 * Since the proposed method focuses on the learning objectives, we adopt a pure protocol based on simple architecture, i.e. DCGAN. And such protocol can be found at https://github.com/kam1107/RealnessGAN
