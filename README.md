@@ -1,7 +1,7 @@
 # Combating Mode Collapse via Offline Manifold Entropy Estimation
 This is an example code of [Combating Mode Collapse via Offline Manifold Entropy Estimation](https://arxiv.org/pdf/2208.12055.pdf), which is accepted by AAAI'23 (Oral).
 
-!()[./src/teaser.png]
+![](./src/teaser.png)
 
 ## Requirements
 
