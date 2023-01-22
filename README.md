@@ -42,7 +42,7 @@ python train.py \
 
 ## Manifold Entropy Estimation
 
-If you want to bring Manifold Entropy Estimation to the other cases, please go through below codes. As a play-and-plug module, it can be easily applied to different applications. But this might need to modify the weight of MEE carefully.
+If you want to bring Manifold Entropy Estimation to the other cases, please go through below codes. As a plug-and-play module, it can be easily applied to different applications. But this might need to modify the weight of MEE carefully.
 
 
 * Initialize the replay buffer.
