@@ -16,13 +16,7 @@ This is an example code of [Combating Mode Collapse via Offline Manifold Entropy
 `torchvision.datasets.CIFAR10(..., download=True)` in `./train.py` to download the corresponding dataset and keep the directory path.
 
 ## Usage
-* Train MaEM-GAN on CIFAR-10 with GPU 0, `./data/` is your directory path of dataset.
-```
-bash run.sh
-```
-Then the model is saved at `./model/cifar10/` and the generated samples can be found at `./image/cifar10/`.
-
-* or you can define the configuration by
+* To train MaEM-GAN on CIFAR-10 with GPU, you can define the configuration by
 ```
 CUDA_VISIBLE_DEVICES=${gpu_device} \
 python train.py \
@@ -40,6 +34,7 @@ python train.py \
     --data_path ${CIFAR_DIR} \
 ```
 
+Then the model is saved at `[your_model_dir]` and the generated samples can be found at `[your_image_dir]`.
 
 ## Manifold Entropy Estimation
 
