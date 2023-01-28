@@ -10,6 +10,7 @@ This is an example code of [Combating Mode Collapse via Offline Manifold Entropy
 *   pytorch>=1.2.0
 *   torchvision>=0.4.0
 *   tqdm>=4.62.3
+*   pytorch-fid>=0.3.0
 
 ## Datasets
 * CIFAR-10 datasets can be downloaded by torchvision. Note that you can set
