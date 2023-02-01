@@ -3,6 +3,8 @@ This is an example code of [Combating Mode Collapse via Offline Manifold Entropy
 
 ![](./src/teaser.png)
 
+[Home Page](https://haozheliu-st.github.io/MEE/)
+
 ## Requirements
 
 *   numpy>=1.19.2
