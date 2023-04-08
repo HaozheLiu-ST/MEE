@@ -157,7 +157,7 @@ def training_ours(epoch):
 
 # ==========================L_DIsoMap===============================
 
-        alpha = torch.rand(realdata.size(0),1).cuda()
+        alpha = torch.randn(realdata.size(0),1).cuda()
 
         mix_z = alpha * t_z + f_z * (1-alpha)
 
