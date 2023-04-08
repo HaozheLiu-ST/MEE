@@ -117,7 +117,7 @@ TBD
 
 * The entropy term and DIsoMap can be trained by L2 distance, with rapid convergence but unstable training. To this end, when generalize IAC to large-scale dataset, please replace L2 by cosine similarity.
 
-* In DIsoMap, we use torch.randn to obtain more diverse combinations. If you want to change this into convex combination, please use torch.rand or Beta distribution. Kindly remind that different sample distributions requires different hyperparameters. (Thanks for Yan_An Wang' contribution on this thing.)
+* In DIsoMap, we use torch.randn to obtain more diverse combinations. If you want to change this into convex combination, please use torch.rand or Beta distribution. Kindly remind that different sample distributions require different hyperparameters. (Thanks for Yan_An Wang' contribution.)
 
 ## Bib
 If you think this project is useful for your research, please cite as 
