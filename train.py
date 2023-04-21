@@ -144,7 +144,7 @@ def training_ours(epoch):
         loss_dlle = F.mse_loss(t_z,t_z_aug.detach()) + F.mse_loss(f_z,f_z_aug.detach())
 
 
-# ==========================DLLE===============================
+# ==========================RB-MaEM===============================
         if epoch < 100:
             lr = epoch/100. * args.entropy_lr
         else:
